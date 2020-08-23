@@ -140,6 +140,14 @@ pip install -r requirements.txt
   year = {2020},
   url = {https://grab.is.tue.mpg.de}
 }
+
+@InProceedings{Brahmbhatt_2019_CVPR,
+  title = {{ContactDB}: Analyzing and Predicting Grasp Contact via Thermal Imaging},
+  author = {Brahmbhatt, Samarth and Ham, Cusuh and Kemp, Charles C. and Hays, James},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year = {2019},
+  url = {https://contactdb.cc.gatech.edu}
+}
 ```
 
 ## License
