@@ -50,7 +50,7 @@ This repository Contains:
 ## Getting started
 In order to use the GRAB dataset please follow carefully the steps below, in this exact order:
 
-- Download the grab dataset (ZIP files) from [this website](http://grab.is.tue.mpg.de). Please do NOT unzip the files yet.
+- Download the GRAB dataset (ZIP files) from [this website](http://grab.is.tue.mpg.de). Please do NOT unzip the files yet.
 - Organize the ZIP files in the following folder structure. Our [script](http://comming.soon) can help you automate this.
 ```bash
     GRAB
@@ -165,11 +165,14 @@ this agreement will automatically terminate your rights under this [License](./L
 
 Special thanks to [Mason Landry](https://ps.is.tuebingen.mpg.de/person/mlandry) for his invaluable help with this project.
 
-We thank S. Polikovsky, M. Hoschle (MH) and M. Landry (ML)
-for the MoCap facility. We thank F. Mattioni, D. Hieber, and A. Valis for MoCap
-cleaning. We thank ML and T. Alexiadis for trial coordination, MH and F. Grimminger
-for 3D printing, V. Callaghan for voice recordings, J. Tesch for renderings, and Benjamin Pellkofer for the IT support. 
-We thank Sai Kumar Dwivedi and Nikos Athanasiou for proofreading.
+We thank:
+* Senya Polikovsky, Markus Hoschle (MH) and Mason Landry (ML) for the MoCap facility. 
+* Felipe Mattioni, David Hieber, and Alex Valis for MoCap cleaning. 
+* ML and Tsvetelina Alexiadis for trial coordination, and MH and Felix Grimminger for 3D printing, 
+* ML and Valerie Callaghan for voice recordings, Joachim Tesch for renderings. 
+* Jonathan Williams for the website design, and Benjamin Pellkofer for the IT and web support. 
+* Sai Kumar Dwivedi and Nikos Athanasiou for proofreading.
+
 ## Contact
 The code of this repository was implemented by [Omid Taheri](https://ps.is.tue.mpg.de/person/otaheri).
 
