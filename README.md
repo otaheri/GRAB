@@ -148,6 +148,8 @@ pip install -r requirements.txt
   year = {2019},
   url = {https://contactdb.cc.gatech.edu}
 }
+
+We kindly ask you to cite Brahmbhatt et al. ([ContactDB website](https://contactdb.cc.gatech.edu/)), whose object meshes are used for our GRAB dataset, as also described in our [license](./LICENSE).
 ```
 
 ## License
