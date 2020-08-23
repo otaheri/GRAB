@@ -14,19 +14,17 @@ different motion intents.
 
 
 
-| Eat - Banana | Talk - Phone|
-| :---: | :---: |
-| ![GRAB-Teaser](images/banana.gif)|![GRAB-Teaser](images/phone.gif)|
-|Drink- Mug | See - Binoculars|
-|![GRAB-Teaser](images/mug.gif)|![GRAB-Teaser](images/binoculars.gif)|
+| Eat - Banana | Talk - Phone|Drink- Mug | See - Binoculars|
+| :---: | :---: |:---: | :---: |
+| ![GRAB-Teaser](images/banana.gif)|![GRAB-Teaser](images/phone.gif)|![GRAB-Teaser](images/mug.gif)|![GRAB-Teaser](images/binoculars.gif)|
 
-[add gifs]
+
 
 Check out the YouTube video below for more details.
 
 | Short Video | Long Video |
 | :---: | :---: |
-|  [![ShortVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://www.youtube.com/watch?v=a-sVItuoPek) | [![LongVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://www.youtube.com/watch?v=lNTmHLYTiB8) | 
+|  [![ShortVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://youtu.be/s5syYMxmNHA) | [![LongVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://youtu.be/s5syYMxmNHA) | 
 
 
 ## Table of Contents
