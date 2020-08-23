@@ -1,0 +1,8 @@
+numpy>=1.16.2
+torch>=1.0.1.post2
+torchgeometry>=0.1.2
+smplx >=0.1.2
+pillow
+tqdm
+pyrender>=0.1.23
+trimesh>=2.37.6
