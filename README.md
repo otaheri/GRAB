@@ -19,6 +19,11 @@ different motion intents.
 | :---: | :---: |:---: | :---: |
 | ![GRAB-Teaser](images/banana.gif)|![GRAB-Teaser](images/phone.gif)|![GRAB-Teaser](images/mug.gif)|![GRAB-Teaser](images/binoculars.gif)|
 
+GRAB dataset also contains detailed contact information between the body and objects as shown bellow:
+
+|Contact Heatmaps|Contact Annotation|
+| :---: | :---: |
+|![contact](images/contact.png) |![contact](images/contact1.png)|
 
 
 Check out the YouTube video below for more details.
