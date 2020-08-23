@@ -168,7 +168,8 @@ Special thanks to [Mason Landry](https://ps.is.tuebingen.mpg.de/person/mlandry) 
 We thank S. Polikovsky, M. Hoschle (MH) and M. Landry (ML)
 for the MoCap facility. We thank F. Mattioni, D. Hieber, and A. Valis for MoCap
 cleaning. We thank ML and T. Alexiadis for trial coordination, MH and F. Grimminger
-for 3D printing, V. Callaghan for voice recordings and J. Tesch for renderings. We thank Sai Kumar Dwivedi and Nikos Athanasiou for proofreading.
+for 3D printing, V. Callaghan for voice recordings, J. Tesch for renderings, and Benjamin Pellkofer for the IT support. 
+We thank Sai Kumar Dwivedi and Nikos Athanasiou for proofreading.
 ## Contact
 The code of this repository was implemented by [Omid Taheri](https://ps.is.tue.mpg.de/person/otaheri).
 
