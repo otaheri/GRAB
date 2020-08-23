@@ -19,7 +19,9 @@ different motion intents.
 | :---: | :---: |:---: | :---: |
 | ![GRAB-Teaser](images/banana.gif)|![GRAB-Teaser](images/phone.gif)|![GRAB-Teaser](images/mug.gif)|![GRAB-Teaser](images/binoculars.gif)|
 
-GRAB dataset also contains detailed contact information between the body and objects as shown bellow:
+The GRAB dataset also contains  binary contact maps between the body and objects.
+With our interacting meshes, one could integrate these contact maps over time to create
+"contact heatmaps", or even compute fine-grained contact annotations, as shown below:
 
 |Contact Heatmaps|Contact Annotation|
 | :---: | :---: |
