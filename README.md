@@ -157,16 +157,16 @@ this agreement will automatically terminate your rights under this [License](./L
 
 ## Acknowledgments
 
-Special thanks to [Mason Landry](https://github.com/soubhiksanyal) for his invaluable help with this project.
+Special thanks to [Mason Landry](https://ps.is.tuebingen.mpg.de/person/mlandry) for his invaluable help with this project.
 
 We thank S. Polikovsky, M. Hoschle (MH) and M. Landry (ML)
 for the MoCap facility. We thank F. Mattioni, D. Hieber, and A. Valis for MoCap
 cleaning. We thank ML and T. Alexiadis for trial coordination, MH and F. Grimminger
 for 3D printing, V. Callaghan for voice recordings and J. Tesch for renderings. We thank Sai Kumar Dwivedi and Nikos Athanasiou for proofreading.
 ## Contact
-The code of this repository was implemented by [Omid Taheri](omid.taheri@tuebingen.mpg.de).
+The code of this repository was implemented by [Omid Taheri](https://ps.is.tue.mpg.de/person/otaheri).
 
-For questions, please contact [grab@tue.mpg.de](grab@tue.mpg.de).
+For questions, please contact [grab@tue.mpg.de](mailto:grab@tue.mpg.de).
 
-For commercial licensing (and all related questions for business applications), please contact [ps-licensing@tue.mpg.de](ps-licensing@tue.mpg.de).
+For commercial licensing (and all related questions for business applications), please contact [ps-licensing@tue.mpg.de](mailto:ps-licensing@tue.mpg.de).
 
