@@ -51,7 +51,7 @@ This repository Contains:
 In order to use the GRAB dataset please follow carefully the steps below, in this exact order:
 
 - 1. Download the grab dataset (ZIP files) from [this website](http://grab.is.tue.mpg.de). Please do NOT unzip the files yet.
-- 2. Organize the ZIP files in the following structure. Our [script](http://comming.soon) can help you automate this.
+- 2. Organize the ZIP files in the following folder structure. Our [script](http://comming.soon) can help you automate this.
 ```bash
     GRAB
     ├── grab
@@ -85,7 +85,7 @@ To install the model please follow the next steps:
 ```Shell
 git clone https://github.com/otaheri/GRAB
 ```
-2. Install the dependencies by the following command:
+2. Install the dependencies with the following command:
 ```
 pip install -r requirements.txt
 
@@ -95,7 +95,7 @@ pip install -r requirements.txt
 
 - #### Processing the data
 
-    After installing the *GRAB* package and downloading the data and the models from smplx website, you should be able to run the *grab_preprocessing.py*
+    After installing the *GRAB* package and downloading the data and the models from the SMPL-X website, you should be able to run the *grab_preprocessing.py*
     
     ```Shell
     python grab/grab_preprocessing.py --grab-path $GRAB_DATASET_PATH \
