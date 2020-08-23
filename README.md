@@ -167,7 +167,7 @@ Special thanks to [Mason Landry](https://ps.is.tuebingen.mpg.de/person/mlandry) 
 
 We thank:
 * Senya Polikovsky, Markus Hoschle (MH) and Mason Landry (ML) for the MoCap facility. 
-* Felipe Mattioni, David Hieber, and Alex Valis for MoCap cleaning. 
+* ML, Felipe Mattioni, David Hieber, and Alex Valis for MoCap cleaning. 
 * ML and Tsvetelina Alexiadis for trial coordination, and MH and Felix Grimminger for 3D printing, 
 * ML and Valerie Callaghan for voice recordings, Joachim Tesch for renderings. 
 * Jonathan Williams for the website design, and Benjamin Pellkofer for the IT and web support. 
