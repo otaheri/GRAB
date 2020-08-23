@@ -5,10 +5,9 @@
 [![report](https://img.shields.io/badge/arxiv-report-red)](https://grab.is.tue.mpg.de)
 
 ![GRAB-Teaser](images/teaser.png)
-
-[ [Paper Page](https://grab.is.tue.mpg.de) ]
-[ [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562.pdf) ]
-[ [Supp. Mat.](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562-supp.pdf) ]
+[[Paper Page](https://grab.is.tue.mpg.de)] 
+[[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562.pdf)] 
+[[Supp. Mat.](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562-supp.pdf)]
 
 [GRAB](http://grab.is.tue.mpg.de) is a dataset of full-body motions interacting and grasping 3D objects.
 It contains accurate finger and facial motions as well as the contact between the objects and body. It contains 5 male and 5 female participants and 4
@@ -26,7 +25,7 @@ Check out the YouTube video below for more details.
 
 | Long Video | Short Video |
 | :---: | :---: |
-|  [![LongVideo](images/long.png)](https://youtu.be/s5syYMxmNHA) | [![ShortVideo](images/short.png)](https://youtu.be/s5syYMxmNHA) |
+|  [![LongVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://youtu.be/s5syYMxmNHA) | [![ShortVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://youtu.be/s5syYMxmNHA) |
 
 
 ## Table of Contents
@@ -49,9 +48,10 @@ This repository Contains:
 - Visualizing and rendering GRAB sequences
 
 ## Getting started
-Inorder to use GRAB dataset please follow the below steps:
+In order to use the GRAB dataset please follow carefully the steps below, in this exact order:
 
-- Download the grab dataset from [this website](http://grab.is.tue.mpg.de) and put it in the following structure:
+- 1. Download the grab dataset (ZIP files) from [this website](http://grab.is.tue.mpg.de). Please do NOT unzip the files yet.
+- 2. Organize the ZIP files in the following folder structure. Our [script](http://comming.soon) can help you automate this.
 ```bash
     GRAB
     ├── grab
@@ -72,6 +72,7 @@ Inorder to use GRAB dataset please follow the below steps:
     │  
     └── mocap (optional)
 ```
+- Unzip each ZIP file in the same location of the above folder structure.
 - Follow the instructions on the [SMPL-X](https://smpl-x.is.tue.mpg.de) website to download SMPL-X and MANO models.
 - Install this repo to process, visualize, and render the data.
 
@@ -84,7 +85,7 @@ To install the model please follow the next steps:
 ```Shell
 git clone https://github.com/otaheri/GRAB
 ```
-2. Install the dependencies by the following command:
+2. Install the dependencies with the following command:
 ```
 pip install -r requirements.txt
 
@@ -94,7 +95,7 @@ pip install -r requirements.txt
 
 - #### Processing the data
 
-    After installing the *GRAB* package and downloading the data and the models from smplx website, you should be able to run the *grab_preprocessing.py*
+    After installing the *GRAB* package and downloading the data and the models from the SMPL-X website, you should be able to run the *grab_preprocessing.py*
     
     ```Shell
     python grab/grab_preprocessing.py --grab-path $GRAB_DATASET_PATH \
