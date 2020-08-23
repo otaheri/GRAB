@@ -5,8 +5,9 @@
 [![report](https://img.shields.io/badge/arxiv-report-red)](https://grab.is.tue.mpg.de)
 
 ![GRAB-Teaser](images/teaser.png)
-[[Paper Page](https://grab.is.tue.mpg.de)] [[Paper](https://ps.is.mpg.de/publications/grab-2020)]]
-[[Supp. Mat.](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562-supp.pdf)]
+[[Paper Page](https://grab.is.tue.mpg.de)] 
+[[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562.pdf)] 
+[[Supp. Mat.](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562-supp.pdf]
 
 [GRAB](http://grab.is.tue.mpg.de) is a dataset of full-body motions interacting and grasping 3D objects.
 It contains accurate finger and facial motions as well as the contact between the objects and body. It contains 5 male and 5 female participants and 4
@@ -22,9 +23,9 @@ different motion intents.
 
 Check out the YouTube video below for more details.
 
-| Short Video | Long Video |
+| Long Video | Short Video |
 | :---: | :---: |
-|  [![ShortVideo](images/short.png)](https://youtu.be/VHN0DBUB4H8) | [![LongVideo](images/long.png)](https://youtu.be/s5syYMxmNHA) | 
+|  [![LongVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://youtu.be/s5syYMxmNHA) | [![ShortVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://youtu.be/s5syYMxmNHA) |
 
 
 ## Table of Contents
@@ -139,7 +140,16 @@ pip install -r requirements.txt
   year = {2020},
   url = {https://grab.is.tue.mpg.de}
 }
+
+@InProceedings{Brahmbhatt_2019_CVPR,
+  title = {{ContactDB}: Analyzing and Predicting Grasp Contact via Thermal Imaging},
+  author = {Brahmbhatt, Samarth and Ham, Cusuh and Kemp, Charles C. and Hays, James},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year = {2019},
+  url = {https://contactdb.cc.gatech.edu}
+}
 ```
+We kindly ask you to cite Brahmbhatt et al. ([ContactDB website](https://contactdb.cc.gatech.edu/)), whose object meshes are used for our GRAB dataset, as also described in our [license](./LICENSE).
 
 ## License
 Software Copyright License for **non-commercial scientific research purposes**.
@@ -156,16 +166,16 @@ this agreement will automatically terminate your rights under this [License](./L
 
 ## Acknowledgments
 
-Special thanks to [Mason Landry](https://github.com/soubhiksanyal) for his invaluable help with this project.
+Special thanks to [Mason Landry](https://ps.is.tuebingen.mpg.de/person/mlandry) for his invaluable help with this project.
 
 We thank S. Polikovsky, M. Hoschle (MH) and M. Landry (ML)
 for the MoCap facility. We thank F. Mattioni, D. Hieber, and A. Valis for MoCap
 cleaning. We thank ML and T. Alexiadis for trial coordination, MH and F. Grimminger
 for 3D printing, V. Callaghan for voice recordings and J. Tesch for renderings. We thank Sai Kumar Dwivedi and Nikos Athanasiou for proofreading.
 ## Contact
-The code of this repository was implemented by [Omid Taheri](omid.taheri@tuebingen.mpg.de).
+The code of this repository was implemented by [Omid Taheri](https://ps.is.tue.mpg.de/person/otaheri).
 
-For questions, please contact [grab@tue.mpg.de](grab@tue.mpg.de).
+For questions, please contact [grab@tue.mpg.de](mailto:grab@tue.mpg.de).
 
-For commercial licensing (and all related questions for business applications), please contact [ps-licensing@tue.mpg.de](ps-licensing@tue.mpg.de).
+For commercial licensing (and all related questions for business applications), please contact [ps-licensing@tue.mpg.de](mailto:ps-licensing@tue.mpg.de).
 
