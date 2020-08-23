@@ -50,7 +50,8 @@ This repository Contains:
 ## Getting started
 Inorder to use GRAB dataset please follow the below steps:
 
-- Download the grab dataset from [this website](http://grab.is.tue.mpg.de) and put it in the following structure:
+- 1. Download the grab dataset from [this website](http://grab.is.tue.mpg.de). 
+- 2. Organize the ZIP files in the following structure. Our [script](http://comming.soon) can help you automate this.
 ```bash
     GRAB
     ├── grab
@@ -71,6 +72,7 @@ Inorder to use GRAB dataset please follow the below steps:
     │  
     └── mocap (optional)
 ```
+- Unzip each ZIP file in the same location of the above folder structure.
 - Follow the instructions on the [SMPL-X](https://smpl-x.is.tue.mpg.de) website to download SMPL-X and MANO models.
 - Install this repo to process, visualize, and render the data.
 
