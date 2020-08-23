@@ -50,7 +50,7 @@ This repository Contains:
 ## Getting started
 In order to use the GRAB dataset please follow carefully the steps below, in this exact order:
 
-- 1. Download the grab dataset from [this website](http://grab.is.tue.mpg.de). 
+- 1. Download the grab dataset (ZIP files) from [this website](http://grab.is.tue.mpg.de). Please do NOT unzip the files yet.
 - 2. Organize the ZIP files in the following structure. Our [script](http://comming.soon) can help you automate this.
 ```bash
     GRAB
