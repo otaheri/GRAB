@@ -25,7 +25,7 @@ Check out the YouTube video below for more details.
 
 | Long Video | Short Video |
 | :---: | :---: |
-|  [![LongVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://youtu.be/s5syYMxmNHA target="_blank) | [![ShortVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://youtu.be/s5syYMxmNHA target="_blank) |
+|  [![LongVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://youtu.be/s5syYMxmNHA) | [![ShortVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://youtu.be/s5syYMxmNHA) |
 
 
 ## Table of Contents
