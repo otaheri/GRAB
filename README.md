@@ -50,26 +50,23 @@ This repository Contains:
 ## Getting started
 In order to use the GRAB dataset please follow carefully the steps below, in this exact order:
 
-- 1. Download the grab dataset (ZIP files) from [this website](http://grab.is.tue.mpg.de). Please do NOT unzip the files yet.
-- 2. Organize the ZIP files in the following folder structure. Our [script](http://comming.soon) can help you automate this.
+- Download the grab dataset (ZIP files) from [this website](http://grab.is.tue.mpg.de). Please do NOT unzip the files yet.
+- Organize the ZIP files in the following folder structure. Our [script](http://comming.soon) can help you automate this.
 ```bash
     GRAB
     ├── grab
-    │   │
-    │   ├── s1
-    │   └── s2
+    │   │
+    │   ├── s1
     │   └── ...
-    │   └── s9
-    │   └── s10
-    │  
+    │   └── s10
+    │
     └── tools
-    │    │
     │    ├── object_meshes
     │    └── object_settings
     │    └── subject_meshes
     │    └── subject_settings
     │    └── smplx_correspondence
-    │  
+    │
     └── mocap (optional)
 ```
 - Unzip each ZIP file in the same location of the above folder structure.
@@ -80,16 +77,14 @@ In order to use the GRAB dataset please follow carefully the steps below, in thi
 
 To install the model please follow the next steps:
 
-1. Clone this repository and install the requirements: 
-
-```Shell
-git clone https://github.com/otaheri/GRAB
-```
-2. Install the dependencies with the following command:
-```
-pip install -r requirements.txt
-
-```
+- Clone this repository and install the requirements: 
+    ```Shell
+    git clone https://github.com/otaheri/GRAB
+    ```
+- Install the dependencies with the following command:
+    ```
+    pip install -r requirements.txt
+    ```
 
 ## Examples
 
