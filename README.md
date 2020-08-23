@@ -5,8 +5,8 @@
 [![report](https://img.shields.io/badge/arxiv-report-red)](https://grab.is.tue.mpg.de)
 
 ![GRAB-Teaser](images/teaser.png)
-[[Paper Page](https://grab.is.tue.mpg.de)] [[Paper](https://grab.is.tue.mpg.de)]
-[[Supp. Mat.](https://grab.is.tue.mpg.de)]
+[[Paper Page](https://grab.is.tue.mpg.de)] [[Paper](https://ps.is.mpg.de/publications/grab-2020)]]
+[[Supp. Mat.](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562-supp.pdf)]
 
 [GRAB](http://grab.is.tue.mpg.de) is a dataset of full-body motions interacting and grasping 3D objects.
 It contains accurate finger and facial motions as well as the contact between the objects and body. It contains 5 male and 5 female participants and 4
@@ -24,7 +24,7 @@ Check out the YouTube video below for more details.
 
 | Short Video | Long Video |
 | :---: | :---: |
-|  [![ShortVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://youtu.be/s5syYMxmNHA) | [![LongVideo](https://img.youtube.com/vi/s5syYMxmNHA/0.jpg)](https://youtu.be/s5syYMxmNHA) | 
+|  [![ShortVideo](images/short.png)](https://youtu.be/VHN0DBUB4H8) | [![LongVideo](images/long.png)](https://youtu.be/s5syYMxmNHA) | 
 
 
 ## Table of Contents
