@@ -59,7 +59,7 @@ In order to use the GRAB dataset please follow carefully the steps below, in thi
 
 - Download the GRAB dataset (ZIP files) from [this website](http://grab.is.tue.mpg.de). Please do NOT unzip the files yet.
 - Put all the downloaded ZIP files for GRAB in a folder
-- Clone this repository and install the requirements: 
+- Clone this repository: 
     ```Shell
     git clone https://github.com/otaheri/GRAB
     ```
