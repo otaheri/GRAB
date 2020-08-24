@@ -1,6 +1,5 @@
 ## GRAB: A Dataset of Whole-Body Human Grasping of Objects (ECCV 2020)
 
-## Coming Soon ...
 
 [![report](https://img.shields.io/badge/arxiv-report-red)](https://grab.is.tue.mpg.de)
 
@@ -32,7 +31,7 @@ Check out the YouTube video below for more details.
 
 | Long Video | Short Video |
 | :---: | :---: |
-|  [![LongVideo](images/long.png)](https://youtu.be/s5syYMxmNHA) | [![ShortVideo](images/short.png)](https://youtu.be/s5syYMxmNHA) |
+|  [![LongVideo](images/long.png)](https://youtu.be/s5syYMxmNHA) | [![ShortVideo](images/short.png)](https://youtu.be/VHN0DBUB4H8) |
 
 
 ## Table of Contents
