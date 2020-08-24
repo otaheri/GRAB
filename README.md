@@ -57,7 +57,18 @@ This repository Contains:
 In order to use the GRAB dataset please follow carefully the steps below, in this exact order:
 
 - Download the GRAB dataset (ZIP files) from [this website](http://grab.is.tue.mpg.de). Please do NOT unzip the files yet.
-- Organize the ZIP files in the following folder structure. Our [script](http://comming.soon) can help you automate this.
+- Put all the downloaded ZIP files for GRAB in a folder
+- Clone this repository and install the requirements: 
+    ```Shell
+    git clone https://github.com/otaheri/GRAB
+    ```
+- Run the following command to extract the ZIP files.
+
+    ```Shell
+    python grab/unzip_grab.py   --grab-path $PATH_TO_FOLDER_WITH_ZIP_FILES \
+                                --ectract-path $PATH_TO_EXTRACT_GRAB_DATASET_TO
+    ```
+- The extracted data should be in the following structure
 ```bash
     GRAB
     ├── grab
@@ -75,19 +86,17 @@ In order to use the GRAB dataset please follow carefully the steps below, in thi
     │
     └── mocap (optional)
 ```
-- Unzip each ZIP file in the same location of the above folder structure.
 - Follow the instructions on the [SMPL-X](https://smpl-x.is.tue.mpg.de) website to download SMPL-X and MANO models.
 - Install this repo to process, visualize, and render the data.
 
 ## Installation
 
-To install the model please follow the next steps:
+To install the repo please follow the next steps:
 
 - Clone this repository and install the requirements: 
     ```Shell
     git clone https://github.com/otaheri/GRAB
     ```
-- Install the dependencies with the following command:
     ```
     pip install -r requirements.txt
     ```
