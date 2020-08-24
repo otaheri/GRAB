@@ -29,9 +29,6 @@ if __name__ == '__main__':
     unzip_path =  args.extract_path
 
 
-    # zip_path = '/ps/scratch/grab/contact_results/omid_46/GRAB_zipped'
-    # unzip_path = '/ps/scratch/grab/contact_results/omid_46/GRAB_unzipped'
-
     all_zips = [f for f in os.walk(zip_path)]
 
     if unzip_path is None:
