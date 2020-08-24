@@ -157,15 +157,15 @@ We kindly ask you to cite Brahmbhatt et al. ([ContactDB website](https://contact
 
 ## License
 Software Copyright License for **non-commercial scientific research purposes**.
-Please read carefully the following [terms and conditions](https://github.com/otaheri/GRAB/blob/master/LICENSE) and any accompanying documentation
+Please read carefully the [LICENSE file](https://github.com/otaheri/GRAB/blob/master/LICENSE) for the terms and conditions and any accompanying documentation
 before you download and/or use the GRAB data, model and software, (the "Data & Software"),
 including 3D meshes (body and objects), images, videos, textures, software, scripts, and animations.
 By downloading and/or using the Data & Software (including downloading,
 cloning, installing, and any other use of the corresponding github repository),
-you acknowledge that you have read these terms and conditions, understand them,
+you acknowledge that you have read and agreed to the LICENSE terms and conditions, understand them,
 and agree to be bound by them. If you do not agree with these terms and conditions,
 you must not download and/or use the Data & Software. Any infringement of the terms of
-this agreement will automatically terminate your rights under this [License](./LICENSE).
+this agreement will automatically terminate your rights under this [LICENSE](./LICENSE).
 
 
 ## Acknowledgments
