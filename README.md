@@ -111,7 +111,7 @@ To install the repo please follow the next steps:
     ```Shell
     python grab/grab_preprocessing.py --grab-path $GRAB_DATASET_PATH \
                                       --model-folder $SMPLX_MODEL_FOLDER \
-                                      --out_path $PATH_TO_SAVE_DATA
+                                      --out-path $PATH_TO_SAVE_DATA
     ```
 
 - #### Get 3D vertices (or meshes) for GRAB
@@ -138,7 +138,7 @@ To install the repo please follow the next steps:
     ```Shell
     python examples/render_grab.py --grab-path $GRAB_DATASET_PATH \
                                     --model-folder $SMPLX_MODEL_FOLDER \
-                                    --render_path $PATH_TO_SAVE_RENDERINGS
+                                    --render-path $PATH_TO_SAVE_RENDERINGS
     ```
 
 
@@ -153,7 +153,9 @@ To install the repo please follow the next steps:
   year = {2020},
   url = {https://grab.is.tue.mpg.de}
 }
+```
 
+```
 @InProceedings{Brahmbhatt_2019_CVPR,
   title = {{ContactDB}: Analyzing and Predicting Grasp Contact via Thermal Imaging},
   author = {Brahmbhatt, Samarth and Ham, Cusuh and Kemp, Charles C. and Hays, James},

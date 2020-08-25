@@ -143,7 +143,7 @@ class GRABDataSet(object):
                 append2dict(lhand_data, lh_params)
                 append2dict(object_data, obj_params)
 
-                sbj_info = self.load_sbj_verts(sbj_id, seq_data)
+                sbj_vtemp = self.load_sbj_verts(sbj_id, seq_data)
 
                 if cfg.save_body_verts:
 
@@ -151,7 +151,7 @@ class GRABDataSet(object):
                                          model_type='smplx',
                                          gender=gender,
                                          num_pca_comps=n_comps,
-                                         v_template=sbj_info[sbj_id],
+                                         v_template=sbj_vtemp,
                                          batch_size=T)
 
                     sbj_parms = params2torch(sbj_params)
