@@ -37,8 +37,9 @@ Check out the YouTube video below for more details.
 
 ## Table of Contents
   * [Description](#description)
-  * [Getting Started](#getting-started)
+  * [Requirements](#requirements)
   * [Installation](#installation)
+  * [Getting Started](#getting-started)
   * [Examples](#examples)
   * [Citation](#citation)
   * [License](#license)
@@ -54,20 +55,37 @@ This repository Contains:
 - Tools to extract 3D vertices and meshes of the body, hands, and object
 - Visualizing and rendering GRAB sequences
 
+## Requirements
+This package has the following requirements:
+
+* [Pytorch>=1.1.0](https://pytorch.org/get-started/locally/) 
+* Numpy
+* Python >=3.6.0
+* [smplx](https://github.com/vchoutas/smplx) 
+* pyrender (for rendering and visualization)
+
+## Installation
+
+To install the repo please follow the next steps:
+
+- Clone this repository and install the requirements: 
+    ```Shell
+    git clone https://github.com/otaheri/GRAB
+    ```
+    ```
+    pip install -r requirements.txt
+    ```
+
 ## Getting started
 In order to use the GRAB dataset please follow carefully the steps below, in this exact order:
 
 - Download the GRAB dataset (ZIP files) from [this website](http://grab.is.tue.mpg.de). Please do NOT unzip the files yet.
-- Put all the downloaded ZIP files for GRAB in a folder
-- Clone this repository: 
-    ```Shell
-    git clone https://github.com/otaheri/GRAB
-    ```
+- Put all the downloaded ZIP files for GRAB in a folder.
 - Run the following command to extract the ZIP files.
 
     ```Shell
     python grab/unzip_grab.py   --grab-path $PATH_TO_FOLDER_WITH_ZIP_FILES \
-                                --ectract-path $PATH_TO_EXTRACT_GRAB_DATASET_TO
+                                --extract-path $PATH_TO_EXTRACT_GRAB_DATASET_TO
     ```
 - The extracted data should be in the following structure
 ```bash
@@ -88,19 +106,8 @@ In order to use the GRAB dataset please follow carefully the steps below, in thi
     └── mocap (optional)
 ```
 - Follow the instructions on the [SMPL-X](https://smpl-x.is.tue.mpg.de) website to download SMPL-X and MANO models.
-- Install this repo to process, visualize, and render the data.
+- Check the Examples below to process, visualize, and render the data.
 
-## Installation
-
-To install the repo please follow the next steps:
-
-- Clone this repository and install the requirements: 
-    ```Shell
-    git clone https://github.com/otaheri/GRAB
-    ```
-    ```
-    pip install -r requirements.txt
-    ```
 
 ## Examples
 
