@@ -21,7 +21,7 @@ if __name__ == '__main__':
     parser.add_argument('--grab-path', required=True, type=str,
                         help='The path to the downloaded grab data (all zip files)')
 
-    parser.add_argument('--extract-path', required=True, type=str,
+    parser.add_argument('--extract-path', default=None, type=str,
                         help='The path to the folder to extrat GRAB to')
 
     args = parser.parse_args()
