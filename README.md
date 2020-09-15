@@ -73,6 +73,7 @@ To install the repo please follow the next steps:
     git clone https://github.com/otaheri/GRAB
     ```
     ```
+    cd GRAB
     pip install -r requirements.txt
     ```
 
