@@ -1,5 +1,4 @@
-## GRAB
-##### A Dataset of Whole-Body Human Grasping of Objects (ECCV 2020)
+## GRAB: A Dataset of Whole-Body Human Grasping of Objects (ECCV 2020)
 
 
 [![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.11200)
