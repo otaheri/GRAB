@@ -87,9 +87,9 @@ class GRABDataSet(object):
                          % (len(self.splits['train']), len(self.splits['test']), len(self.splits['val'])))
 
         # process the data
-        self.data_preprocessing()
+        self.data_preprocessing(cfg)
 
-    def data_preprocessing(self):
+    def data_preprocessing(self,cfg):
 
         # stime = datetime.now().replace(microsecond=0)
         # shutil.copy2(sys.argv[0],
