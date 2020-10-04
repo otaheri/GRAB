@@ -125,8 +125,7 @@ def save_grab_vertices(cfg, logger=None, **params):
                                 flat_hand_mean=True,
                                 batch_size=T)
 
-            rh_parms = params2torch(seq_data.body.params)
-
+            rh_parms = params2torch(seq_data.rhand.params)
             rh_output = rh_m(**rh_parms)
             verts_rh = to_cpu(rh_output.vertices)
             joints_rh = to_cpu(rh_output.joints) # to get the hand joints
