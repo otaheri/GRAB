@@ -90,7 +90,9 @@ def save_grab_vertices(cfg, logger=None, **params):
                                   batch_size=T)
 
             sbj_parms = params2torch(seq_data.body.params)
-            verts_sbj = to_cpu(sbj_m(**sbj_parms).vertices)
+            output_sbj = sbj_m(**sbj_parms)
+            verts_sbj = to_cpu(output_sbj.vertices)
+            joints_sbj = to_cpu(output_sbj.joints) # to get the body joints (it includes some additional landmarks, check smplx repo.
             np.savez_compressed(outfname, verts_body=verts_sbj)
 
         if cfg.save_lhand_verts:
@@ -106,7 +108,9 @@ def save_grab_vertices(cfg, logger=None, **params):
                                 batch_size=T)
 
             lh_parms = params2torch(seq_data.lhand.params)
-            verts_lh = to_cpu(lh_m(**lh_parms).vertices)
+            lh_output = lh_m(**lh_parms)
+            verts_lh = to_cpu(lh_output.vertices)
+            joints_lh = to_cpu(lh_output.joints) # to get the hand joints
             np.savez_compressed(outfname.replace('_verts_body.npz', '_verts_lhand.npz'), verts_body=verts_lh)
 
         if cfg.save_rhand_verts:
@@ -122,7 +126,10 @@ def save_grab_vertices(cfg, logger=None, **params):
                                 batch_size=T)
 
             rh_parms = params2torch(seq_data.body.params)
-            verts_rh = to_cpu(rh_m(**rh_parms).vertices)
+
+            rh_output = rh_m(**rh_parms)
+            verts_rh = to_cpu(rh_output.vertices)
+            joints_rh = to_cpu(rh_output.joints) # to get the hand joints
             np.savez_compressed(outfname.replace('_verts_body.npz', '_verts_rhand.npz'), verts_body=verts_rh)
 
 
