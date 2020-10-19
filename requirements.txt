@@ -6,3 +6,4 @@ pillow
 tqdm
 pyrender>=0.1.23
 trimesh>=2.37.6
+PyYAML
