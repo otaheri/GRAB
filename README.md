@@ -117,7 +117,7 @@ In order to use the GRAB dataset please follow carefully the steps below, in thi
     
     ```Shell
     python grab/grab_preprocessing.py --grab-path $GRAB_DATASET_PATH \
-                                      --model-folder $SMPLX_MODEL_FOLDER \
+                                      --model-path $SMPLX_MODEL_FOLDER \
                                       --out-path $PATH_TO_SAVE_DATA
     ```
 
@@ -127,7 +127,7 @@ In order to use the GRAB dataset please follow carefully the steps below, in thi
     
     ```Shell
     python grab/save_grab_vertices.py --grab-path $GRAB_DATASET_PATH \
-                                     --model-folder $SMPLX_MODEL_FOLDER
+                                     --model-path $SMPLX_MODEL_FOLDER
     ```
 
 
@@ -137,14 +137,14 @@ In order to use the GRAB dataset please follow carefully the steps below, in thi
     
     ```Shell
     python examples/visualize_grab.py --grab-path $GRAB_DATASET_PATH \
-                                      --model-folder $SMPLX_MODEL_FOLDER
+                                      --model-path $SMPLX_MODEL_FOLDER
     ```
     
     To render the meshes and save images in a folder please run the  *examples/render_grab.py*
     
     ```Shell
     python examples/render_grab.py --grab-path $GRAB_DATASET_PATH \
-                                    --model-folder $SMPLX_MODEL_FOLDER \
+                                    --model-path $SMPLX_MODEL_FOLDER \
                                     --render-path $PATH_TO_SAVE_RENDERINGS
     ```
 
