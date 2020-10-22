@@ -18,6 +18,7 @@ sys.path.append('..')
 import numpy as np
 import torch
 import os, glob
+import pathlib
 import smplx
 import argparse
 
@@ -231,7 +232,7 @@ class GRABDataSet(object):
     def process_sequences(self):
 
         for sequence in self.all_seqs:
-            subject_id = sequence.split('/')[-2]
+            subject_id = pathlib.PurePath(sequence).parts[-2]
             action_name = os.path.basename(sequence)
             object_name = action_name.split('_')[0]
 
