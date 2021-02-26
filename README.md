@@ -108,6 +108,43 @@ In order to use the GRAB dataset please follow carefully the steps below, in thi
 - Follow the instructions on the [SMPL-X](https://smpl-x.is.tue.mpg.de) website to download SMPL-X and MANO models.
 - Check the Examples below to process, visualize, and render the data.
 
+## Contents of each sequence
+
+Each sequence name has the form object_action_*.npz, i.e. it shows the used object and the action. Also, the parent folder of each sequence shows the subjectID for that sequence. For example "grab/s4/mug_pass_1.npz" shows that subject "s4" passes the mug. The data in each sequence is structured as a dictionary with several keys which contain the corresponding information. Below we explain each of them separately.
+
+- gender: The gender of the subject performing the action (male or female).
+
+- sbj_id: The ID of each subject(s1 to s10).
+
+- obj_name: Name of the object used in the sequence.
+
+- motion_intent: The action which is performed by the subject on the object.
+
+- framerate: 120 fps - fixed for all sequences.
+
+- n_frames: The total number of frames for the sequence.
+
+- body: We represent the body using the SMPL-X model. SMPL-X is a realistic statistical body model that is parameterized with pose, shape, and translation parameters. Using these parameters we can get the moving 3D meshes for the body. For more details please check the [website](https://smpl-x.is.tue.mpg.de/) or [paper](https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/497/SMPL-X.pdf). This body key contains the required data for the SMPL-X model, which are as follows:
+
+    - params:  These are translation and joint rotations (in axis-angle representation) of the body which are required by the SMPL-X model.
+
+    - vtemp: Gives the relative path for the file that contains the personalized shape for each subject. We pass the v-template as input to the SMPL-X model so that we get a very accurate and realistic shape and motion.
+
+- lhand & rhand: In addition to the full-body motion, GRAB provides the data to get the motion of each hand individually. Similarly to the body, we use our MANO hand model to do this. MANO provides 3D meshes for the right and left hand given their pose and shape parameters. For more details please check our [website](http://mano.is.tue.mpg.de/) and [paper](https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/392/Embodied_Hands_SiggraphAsia2017.pdf). The parameters for the model are saved in the following structure:
+
+    - params: The global translation and joint rotation (in axis-angle representation) for the hand.
+
+    - vtemp: The relative path to the personalized shape of each hand.
+
+- object: Each object is modeled as a rigid mesh which is rotated and translated.
+
+    - params: Are the rotations and translations for the object during the whole sequence. 
+
+    - object_mesh: Is the relative path to the object mesh.
+
+- table: Each object is supported by a table at the beginning and ending of all sequences. The table is modeled as a flat surface mesh that can be rotated and translated similar to all other objects. The height of the table might be different across sequences.  The table key contains the params (similar to params for the object, see above) and relative path to the table_mesh. 
+
+- contact: We measure the contact between the object and the body based on proximity and other criteria as described in our paper. For each motion frame, each object vertex is associated with a number that ranges from 0 to 55. 0 means there is no contact while any other number shows the specific body/hand part that the vertex has contact with. 
 
 ## Examples
 
@@ -162,15 +199,6 @@ In order to use the GRAB dataset please follow carefully the steps below, in thi
 }
 ```
 
-```
-@InProceedings{Brahmbhatt_2019_CVPR,
-  title = {{ContactDB}: Analyzing and Predicting Grasp Contact via Thermal Imaging},
-  author = {Brahmbhatt, Samarth and Ham, Cusuh and Kemp, Charles C. and Hays, James},
-  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year = {2019},
-  url = {https://contactdb.cc.gatech.edu}
-}
-```
 We kindly ask you to cite Brahmbhatt et al. ([ContactDB website](https://contactdb.cc.gatech.edu/)), whose object meshes are used for our GRAB dataset, as also described in our [license](./LICENSE).
 
 ## License
