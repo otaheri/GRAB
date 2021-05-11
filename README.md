@@ -144,7 +144,7 @@ Each sequence name has the form object_action_*.npz, i.e. it shows the used obje
 
 - table: Each object is supported by a table at the beginning and ending of all sequences. The table is modeled as a flat surface mesh that can be rotated and translated similar to all other objects. The height of the table might be different across sequences.  The table key contains the params (similar to params for the object, see above) and relative path to the table_mesh. 
 
-- contact: We measure the contact between the object and the body based on proximity and other criteria as described in our paper. For each motion frame, each object vertex is associated with a number that ranges from 0 to 55. 0 means there is no contact while any other number shows the specific body/hand part that the vertex has contact with. 
+- contact: We measure the contact between the object and the body based on proximity and other criteria as described in our paper. For each motion frame, each object vertex is associated with a number that ranges from 0 to 55. 0 means there is no contact while any other number shows the specific body/hand part that the vertex has contact with. You can find the mapping between the contact number and each body joint using the table [here](https://github.com/otaheri/GRAB/blob/4dab3211fae4fc5b8eb6ab86246ccc3a42d8f611/tools/utils.py#L166).
 
 ## Examples
 
