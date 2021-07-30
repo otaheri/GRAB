@@ -5,8 +5,7 @@
 
 ![GRAB-Teaser](images/teaser.png)
 [[Paper Page](https://grab.is.tue.mpg.de) ] 
-[[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562.pdf) ] 
-[[Supp. Mat.](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562-supp.pdf) ]
+[[ArXiv Paper](https://arxiv.org/abs/2008.11200) ]
 
 [GRAB](http://grab.is.tue.mpg.de) is a dataset of full-body motions interacting and grasping 3D objects.
 It contains accurate finger and facial motions as well as the contact between the objects and body. It contains 5 male and 5 female participants and 4
