@@ -5,7 +5,7 @@
 
 ![GRAB-Teaser](images/teaser.png)
 [[Paper Page](https://grab.is.tue.mpg.de) ] 
-[[Paper](http://grab.is.tue.mpg.de//uploads/ckeditor/attachments/363/grab_eccv2020.pdf) ] 
+[[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562.pdf) ] 
 [[Supp. Mat.](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562-supp.pdf) ]
 
 [GRAB](http://grab.is.tue.mpg.de) is a dataset of full-body motions interacting and grasping 3D objects.
