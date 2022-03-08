@@ -78,7 +78,8 @@ To install the repo please follow the next steps:
 ## Getting started
 In order to use the GRAB dataset please follow carefully the steps below, in this exact order:
 
-- Download the GRAB dataset (ZIP files) from [this website](http://grab.is.tue.mpg.de). Please do NOT unzip the files yet.
+- Download the GRAB dataset (ZIP files) from [our website](http://grab.is.tue.mpg.de). Please do NOT unzip the files yet.
+- Please make sure to follow the instruction on the website to get access to the **object_meshes.zip** before continuing to the next steps.
 - Put all the downloaded ZIP files for GRAB in a folder.
 - Run the following command to extract the ZIP files.
 
